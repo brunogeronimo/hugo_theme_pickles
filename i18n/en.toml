@@ -24,8 +24,14 @@ zero = "{{ .ReadingTime }}mins"
 one = "{{ .ReadingTime }}min"
 other = "{{ .ReadingTime }}mins"
 
+[post-next]
+other = "Next"
+
+[post-previous]
+other = "Previous"
+
 [see-also]
-other = ""
+other = "See also"
 
 [contact-me]
 other = "Contact me"

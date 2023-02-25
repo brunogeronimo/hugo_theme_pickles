@@ -60,12 +60,12 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           {{ if .NextInSection }}
-          <a href="{{ .NextInSection.Permalink }}">Newer</a>
+          <a href="{{ .NextInSection.Permalink }}">{{ i18n "post-next" }}</a>
           {{ end }}
         </div>
         <div class="c-pagination__older">
           {{ if .PrevInSection }}
-          <a href="{{ .PrevInSection.Permalink }}">Older</a>
+          <a href="{{ .PrevInSection.Permalink }}">{{ i18n "post-previous" }}</a>
           {{ end }}
         </div>
       </div>
