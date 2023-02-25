@@ -30,6 +30,9 @@ other = "Next"
 [post-previous]
 other = "Previous"
 
+[last-update]
+other = "Last update:"
+
 [see-also]
 other = "See also"
 

@@ -16,6 +16,9 @@ other = "Próximo"
 [post-previous]
 other = "Anterior"
 
+[last-update]
+other = "Última atualização:"
+
 [page-count]
 other = "Página {{ .PageNumber }} de {{ .TotalPages }}"
 
